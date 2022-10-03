@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <style>
+        *{
+            background-color: grey;
+        }
+        h1{
+            color: blue;
+            font-size: 2cm;
+            text-align:center;
+            font-style: italic;
+        }
+        h2{
+            color: cyan;
+            font-size: 1cm;
+            font-style: oblique;
+        }
+        h3{
+            color: rgb(0, 53, 35);
+            font-size: 0.7cm;
+            font-style: inherit;
+        }
+        .nav-link{
+            color: purple;
+            font-style: italic;
+            font-size:x-large;
+        }
+        .nav:hover{color: blue!important;}
+
+        p{
+            font-size: 0.6cm;
+            color: brown;
+            font-style: initial;
+        }
+
+        #playlist{
+            color: black;
+        }    
+
+    </style>
+</head>
+<body>
+    <div>
+        <header><h1>La santisima trinidad</h1></header>
+        <!-- <nav id="nav">
+            <a href="#Gustavo" class="nav">Gustavo Cerati</h3></a>
+            <a href="#Charly" class="nav">Charly Garcia</a>
+            <a href="#Luis" class="nav">Luis Alberto Spinetta</a>
+        </nav> -->
+        <nav class="navbar navbar-expand-lg border border-dark" style ="background-color: grey">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">Cantantes:</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                  <li class="nav-item">
+                    <a href="#Gustavo" class="nav-link" >Gustavo Cerati </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#Charly" class="nav-link"  >Charly Garcia</a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="#Luis" class="nav-link" >Luis Alberto Spinetta</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </div>
+    <div>
+        <div class="container text-center">
+            <div class="row">
+              <div class="col-xxl-6 col-sm-12" id="Gustavo">
+                <h2>Gustavo Cerati</h2>
+                <p><b>Gustavo Adrián Cerati</b> fue un músico, cantautor y productor discográfico argentino que obtuvo reconocimiento 
+                    internacional por haber sido el líder, vocalista, compositor y guitarrista de la banda de rock <i>Soda Stereo</i>. 
+                    Parte de la prensa especializada y músicos lo consideran como uno de los artistas más influyentes del rock latinoamericano.</p>
+                <a href="https://es.wikipedia.org/wiki/Gustavo_Cerati"><img src="Imagenes\SodaStereo.jpg" alt="Foto de Soda Stereo" width="100%" title="Soda Stereo"></a>
+              </div>
+              <div class="col-xxl-6 col-sm-12" id="Charly">
+                <h2>Charly Garcia</h2>
+                <p><b>Carlos Alberto García</b>, conocido por su nombre artístico <i>Charly García</i>, es un cantautor, vocalista, multinstrumentista, 
+                y productor discográfico argentino.Es considerado una de las figuras más importantes e influyentes en la historia de la música
+                popular argentina y latinoamericana.</p>
+                <a href="https://es.wikipedia.org/wiki/Charly_García"><img src="Imagenes\Charly.jpg" alt="Charly Garcia de joven" width="100%" title="Charly Garcia"></a>
+              </div>
+              <div class="col-xxl-6 col-sm-12" id="Luis">
+                <h2>Luis Alberto Spinetta</h2>
+                <p><b>Luis Alberto Spinetta</b> fue un cantante, guitarrista, poeta, escritor y compositor argentino, considerado uno de los más importantes 
+                 y respetados músicos de Argentina, Latinoamérica y del habla hispana por la complejidad instrumental, lírica y poética de sus obras 
+                 musicales, tanto en sus múltiples agrupaciones y como solista.
+                 El gobierno argentino estableció el 23 de enero como <i>"Día Nacional del Músico"</i> en honor a su nacimiento.</p>
+                  <a href="https://es.wikipedia.org/wiki/Luis_Alberto_Spinetta"><img src="Imagenes\Spinetta.jpg" alt="Spinetta tocando la guitarra" width="100%" title="Luis Alberto Spinetta"></a> 
+              </div>
+            </div>
+          </div>
+    </div>
+    <div>
+        <!-- <footer>
+            <h2>Playlists</h2>
+            <h3>Gustavo</h3>
+            <a href="https://open.spotify.com/playlist/31MW6aLfw13xcRf8rIEiMW?si=a78c079732b24415" id="playlist">∞</a>
+            <h3>Charly</h3>
+            <a href="https://open.spotify.com/playlist/4qtKjG16my5gQp862fDcFi?si=a37f28f5edf642f1" id="playlist">🄲🄷🄰🅁🄻🅈</a>
+            <h3>Luis</h3>
+            <a href="https://open.spotify.com/playlist/5qmCwycq1a6jwXrb89jBZv?si=3c9f8bd48b4946ed" id="playlist">☼𝒑𝒖𝒆𝒏𝒕𝒆𝒔 𝒂𝒎𝒂𝒓𝒊𝒍𝒍𝒐𝒔☼</a>
+        </footer> -->
+        <footer class="text-center text-lg-start">
+            <!-- Grid container -->
+            <div class="container p-4">
+              <h3 class="text-center p-3">Playlists</h3>  
+              <!--Grid row-->
+              <div class="row">
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Gustavo</h5>
+          
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="https://open.spotify.com/playlist/31MW6aLfw13xcRf8rIEiMW?si=a78c079732b24415" class="text-dark">∞</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+          
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase mb-0">Charly</h5>
+          
+                  <ul class="list-unstyled">
+                    <li>
+                      <a href="https://open.spotify.com/playlist/4qtKjG16my5gQp862fDcFi?si=a37f28f5edf642f1" class="text-dark">🄲🄷🄰🅁🄻🅈</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+          
+                <!--Grid column-->
+                <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                  <h5 class="text-uppercase">Luis</h5>
+          
+                  <ul class="list-unstyled mb-0">
+                    <li>
+                      <a href="https://open.spotify.com/playlist/31MW6aLfw13xcRf8rIEiMW?si=a78c079732b24415" class="text-dark">☼𝒑𝒖𝒆𝒏𝒕𝒆𝒔 𝒂𝒎𝒂𝒓𝒊𝒍𝒍𝒐𝒔☼</a>
+                    </li>
+                  </ul>
+                </div>
+                <!--Grid column-->
+              </div>
+              <!--Grid row-->
+            </div>
+            <!-- Grid container -->
+          
+            <!-- Copyright -->
+            <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+              © Anclado en 1990 Copyright:
+              <a class="text-dark" href="https://open.spotify.com/track/5U3z76HVF4JZ5cc7Xaem5v?si=792fff186e064608">1990</a>
+            </div>
+            <!-- Copyright -->
+          </footer>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
